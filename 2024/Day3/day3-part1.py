@@ -1,6 +1,6 @@
 import re
 
-with open('c:/Users/Gebruiker/Documents/repos/oldaoctesting/2024/Day3/input.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     inputfile = file.read()
 
 def mul(x,y):
