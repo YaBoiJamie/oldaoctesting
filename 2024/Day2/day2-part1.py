@@ -1,18 +1,18 @@
 import os
 
-# Get the folder where this script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
+# # Get the folder where this script is located
+# script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Build the full path to input.txt
-file_path = os.path.join(script_dir, 'input.txt')
+# # Build the full path to input.txt
+# file_path = os.path.join(script_dir, 'input.txt')
 
-list = []
+# list = []
 
-# Open and read the file
-with open(file_path, 'r') as file:
-    for line in file:
-        numbers = line.strip().split()
-        list.append(numbers)
+# # Open and read the file
+# with open(file_path, 'r') as file:
+#     for line in file:
+#         numbers = line.strip().split()
+#         list.append(numbers)
 
 # safe_reports = 0
 # for i in range(len(list)):
@@ -38,7 +38,7 @@ with open(file_path, 'r') as file:
 
 # print(safe_reports)
 
-
+#papas ding 
 # zo dan?
 safe_reports = 0
 for valuelist in list:
@@ -70,12 +70,5 @@ for valuelist in list:
         safe_reports += 1
 
 print(safe_reports)
-
-
-    
-                    
-                        
-        
-                    
 
 
