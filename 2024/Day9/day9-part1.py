@@ -30,7 +30,7 @@ for i in range(0, len(file), 1):
             antwoord.append(id)
     else:
         # print(file[i])
-        for j in range(int(file[i])):
+        for k in range(int(file[i])):
             antwoord.append(str1)
 
 print(antwoord)
