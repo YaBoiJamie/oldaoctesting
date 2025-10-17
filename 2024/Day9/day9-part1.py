@@ -27,7 +27,7 @@ for i in range(0, len(file), 1):
         id += 1
         # print(file[i], i, id)
         for j in range(int(file[i])):
-            antwoord.append(id)
+            antwoord.append(str(id))
     else:
         # print(file[i])
         for k in range(int(file[i])):
@@ -61,5 +61,5 @@ for p in range(len(antwoord)):
     if eerste == checkpos:
         break
 
-print(antwoord)
+print(''.join(antwoord))
 print(checksum(antwoord))
