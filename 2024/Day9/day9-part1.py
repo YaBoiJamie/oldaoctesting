@@ -23,14 +23,14 @@ str1 = '.'
 
 
 for i in range(0, len(file), 1):
-    if i % 2 or i == 0:
+    if i % 2 == 0:
         id += 1
         # print(file[i], i, id)
         for j in range(int(file[i])):
-            antwoord.append(id)
+            antwoord.append(str(id))
     else:
         # print(file[i])
         for k in range(int(file[i])):
             antwoord.append(str1)
 
-print(antwoord)
+print(''.join(antwoord))
